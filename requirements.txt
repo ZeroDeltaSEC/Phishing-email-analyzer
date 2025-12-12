@@ -1,0 +1,36 @@
+# Python dependencies for Advanced Phishing Email Analyzer
+
+# Web automation and browser control
+selenium>=4.15.0
+
+# File type detection
+python-magic>=0.4.27
+
+# Email parsing (built-in, but listed for reference)
+# email (standard library)
+
+# Optional but recommended:
+# For YARA support
+# yara-python>=4.3.1
+
+# Note: System tools required (install via apt/yum):
+# - tcpdump
+# - tshark (wireshark-common)
+# - exiftool (libimage-exiftool-perl)
+# - binwalk
+# - strings (binutils)
+# - file
+# - curl
+# - firefox or chromium (for Selenium)
+# - geckodriver or chromedriver (for Selenium)
+
+# Office document analysis
+# - oletools (pip install oletools)
+
+# PDF analysis
+# - pdfid (optional)
+# - pdf-parser (optional)
+
+# AI Analysis
+# - ollama (system install from ollama.ai)
+# Recommended models: llama3.2:3b, mistral, phi-3
