@@ -122,7 +122,7 @@ sudo pip3 install oletools
 
 ```bash
 git clone https://github.com/ZeroDeltaSEC/Phishing-email-analyzer
-cd phishing-analyzer
+cd Phishing-email-analyzer
 ```
 
 ### Step 3: Install Python Dependencies
