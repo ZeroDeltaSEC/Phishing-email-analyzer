@@ -121,7 +121,7 @@ sudo pip3 install oletools
 ### Step 2: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/phishing-analyzer.git
+git clone https://github.com/ZeroDeltaSEC/Phishing-email-analyzer
 cd phishing-analyzer
 ```
 
